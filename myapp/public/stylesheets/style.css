@@ -1,0 +1,102 @@
+html , body {
+  padding:0;
+  margin:0;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  height: 1000px;
+  background-color:brown;
+}
+
+a {
+  color: #00B7FF;
+}
+
+
+h1 {
+  text-align: center;
+  font-size: 25px;
+  position: absolute;
+  top: 40%;
+  bottom: 16px;
+  left:25px;
+  color: red;
+
+}
+
+ul {
+  list-style-type:none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: brown;
+}
+
+button {
+  padding: 10px;
+  border-radius: 35px;
+  position: absolute;
+  top: 55%;
+  left: 12%;
+
+}
+
+button:hover {
+  background-color:brown;
+  color:white;
+
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.ba {
+  background-image:url('https://static1.squarespace.com/static/583f075bebbd1a375913d05b/t/5a1173bce4966b5d53510c30/1511093223117/Christian+Hirsig.jpg');
+  background-repeat: no-repeat, repeat;
+  background-size:cover;
+  height: 600px;
+  opacity: none;
+  border-radius: 40px;
+  color:#fff;
+
+}
+.row {
+  margin-top:30px;
+  padding-left: 180px;
+
+}
+
+img:hover{
+  cursor:pointer;
+  opacity: 0.40;
+}
+
+.po {
+  text-align: center;
+  padding-top:20px;
+}
+
+.flex {
+  display: flex;
+  height: 100px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: space-between;
+  background-color: DodgerBlue;
+}
+
+.flex > div {
+  background-color: #f1f1f1;
+  width: 90px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
